@@ -1,4 +1,4 @@
--- add concept procedure used for importing concept for avni bahmni integration
+delimiter //
 CREATE PROCEDURE add_concept_abi (name_of_concept VARCHAR(255),
                               concept_short_name VARCHAR(255),
                               data_type_name VARCHAR(255),
@@ -38,4 +38,4 @@ BEGIN
     INSERT INTO concept_name (concept_id, name, locale, locale_preferred, creator, date_created, concept_name_type, uuid)
       values (new_concept_id, name_of_concept, 'en', 1, 1, now(), 'FULLY_SPECIFIED', @uuid);
   END IF;
-END;
+END//
