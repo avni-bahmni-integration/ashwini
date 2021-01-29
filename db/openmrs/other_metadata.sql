@@ -7,4 +7,3 @@ call add_concept('Community registration date [Avni]', 'Community registration d
 -- Encounter types
 insert into encounter_type (name, date_created, uuid, changed_by, date_changed)
     values ('Community Registration', curdate(), '18c9a1d6-c4f5-4b64-8dbb-cf8ded8b9552', @user, curdate());
-
