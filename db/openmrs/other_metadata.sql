@@ -5,5 +5,5 @@ call add_concept_abi('CHW last changed by', 'CHW last changed by', 'Text', 'Misc
 call add_concept_abi('Community registration date [Avni]', 'Community registration date', 'Text', 'Misc', false, 'c283a983-5db0-42b7-aa60-8ced1734eae6');
 
 -- Encounter types
-insert into encounter_type (name, date_created, uuid, changed_by, date_changed)
-    values ('Community Registration', curdate(), '18c9a1d6-c4f5-4b64-8dbb-cf8ded8b9552', 1, curdate());
+insert into encounter_type (name, date_created, uuid, changed_by, date_changed, creator)
+    values ('Community Registration', curdate(), '18c9a1d6-c4f5-4b64-8dbb-cf8ded8b9552', 1, curdate(), 1);
