@@ -39,3 +39,4 @@ BEGIN
       values (new_concept_id, name_of_concept, 'en', 1, 1, now(), 'FULLY_SPECIFIED', @uuid);
   END IF;
 END//
+delimiter ;
