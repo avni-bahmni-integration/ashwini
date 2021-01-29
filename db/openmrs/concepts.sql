@@ -1,0 +1,1 @@
+call add_concept_abi(@concept_id, @concept_name_short_id, @concept_name_full_id, 'Sangam number [Avni]', 'Sangam number', 'Numeric', 'Misc', false, '3611bf5b-c223-4f67-ae7b-96951c37124e');
