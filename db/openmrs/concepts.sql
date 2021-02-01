@@ -1,4 +1,3 @@
-call add_concept_abi('Sangam number [Avni]', 'Sangam number', 'Numeric', 'Misc', false, '3611bf5b-c223-4f67-ae7b-96951c37124e');
 call add_concept_abi('Name of spouse [Avni]', 'Name of spouse', 'Text', 'Misc', false, '19412604-414c-4f33-80ef-2121933c2827');
 call add_concept_abi('Date of marriage [Avni]', 'Date of marriage', 'Date', 'Misc', false, 'f609901b-ae16-45d7-8629-0887f537f61c');
 call add_concept_abi('Number of children alive [Avni]', 'Number of children alive', 'Numeric', 'Misc', false, 'ced6bd5e-9337-4e65-9958-45dbecfecca6');

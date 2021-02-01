@@ -1,6 +1,4 @@
 insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '3611bf5b-c223-4f67-ae7b-96951c37124e', 'Sangam number');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
 values ('Observation', 'Concept', '19412604-414c-4f33-80ef-2121933c2827', 'Name of spouse');
 insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
 values ('Observation', 'Concept', 'f609901b-ae16-45d7-8629-0887f537f61c', 'Date of marriage');
@@ -124,217 +122,217 @@ insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, av
 values ('Observation', 'Concept', 'f90fa1de-e55a-4b6e-97d7-dccbba836d0e', 'Not using OCP Others');
 
 
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '9cd7494a-c239-423e-98a8-309fdac61a61', 'Tribe');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', 'f66f5530-75ce-4175-aa20-d8ecd38302a7', 'Sickle cell status');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', 'daea556e-a2a4-4cc2-b132-f2a066d05fb7', 'Place of insertion of copper-T');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '503f46a4-51f1-40f9-bf95-7ba3ab4a1df3', 'Ever been pregnant');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '3a582352-e9b5-4d6a-a696-deeee420fb29', 'Type of procedure');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '08d42c73-72d2-4914-9fb1-15142ef1a1d8', 'Type of temporary method you are using now');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '7a3ded14-16c8-4abb-b65e-fb0d0e055cfd', 'Place of procedure');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '0e7e4374-9f2c-4edb-b9fd-54edb39501be', 'Type of Permanent Sterilization');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', 'dcc46565-5403-4aa1-a3af-6ac267d575de', 'Sickle cell status of spouse');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', 'c85085a4-dd56-4177-b275-7cb47f459c40', 'What method of sterilization are you using currently');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '26269efc-224d-4327-abfb-b73208368254', 'Have you had any side effects');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', 'bccefcd3-a9e6-4994-a5d6-ef58c4054298', 'What side effects did you have');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', 'bf24eef0-08ad-4799-8c7b-445f94f4e0c6', 'Was the CuT removed');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '6b0a039e-dc0a-4b10-8341-9049a6253933', 'Reasons for removal');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '962a601e-6171-4804-aa7c-9e1369c26cb0', 'Are you using condom regularly');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', 'f0305ac0-4f9a-49b8-94b8-15af86b2e103', 'What are the reasons for not using condom regularly');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '7f6c531d-9a6c-45d9-8df1-8d832a3c93a4', 'Are you using OCP regularly');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '2904760d-de20-489f-b815-fc9b795d0ac0', 'What are the reasons for not using OCP regularly');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '27f182c0-6e95-4967-b9df-60191f092df3', 'Source of Availability');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '87a2be02-071d-4fcf-89ff-2e7aeae87744', 'Do you have any side effects');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '6a4a6997-725b-4147-a7e2-e8504dd15e7a', 'Antara Source of Availability');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '7de92d14-1798-404a-87be-221f38f15c4e', 'Antara Do you have any side effects');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '2c17dac6-bbe9-41c4-945b-997203e04e1d', 'Chhaya Counselling Point');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '97aa5497-f30d-4ac7-8fa3-875b645bfaab', 'Was the disease value checked');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '125976a1-44cc-4b51-8cc8-f7de31db5779', 'Marriage status');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', 'c7229676-9237-4203-be7d-299537449fc5', 'Was pneumococcal vaccine administered');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '9f25e549-2800-4306-bc59-cabc7d113dc2', 'Sickle cell status of father');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '1b24a3db-c5aa-4285-9acf-dbdbc8823ae1', 'Sickle cell status of mother');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '4bfc1057-6064-4ff2-9a42-40a5880c5419', 'Was counselling given this month');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', 'a2e2cd8f-b51b-4c24-a478-0a02ce5439f6', 'Present condition');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '164b2447-8f12-43dc-90f7-07d74e8b03d5', 'Drug administered');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '8f21da39-fc3e-4a4c-91e2-d09f5cd6eb25', 'Medication was started_COPD');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '90465188-e224-4231-82a4-6caa5474197a', 'Medication was started_Thyroid disorders');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', 'a38f87c0-ae87-457c-b45b-0bd7adf56cb7', 'Medication was started_Cardiac diseases');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', 'cda70c2d-1ec5-4955-a6eb-4c74414e74d9', 'Medication was started_Dyslipidemia');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', 'a1871a54-71c6-4438-9179-b682e0c211d2', 'Medication was started_Cerebro vascular accuident');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '8e7e34a5-8e6b-4b43-9d74-d389a56169b1', 'Diagnosis');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '9d7b52e2-e204-4068-93aa-a73cd9070e41', 'Present diagnosis');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '54c33682-27df-4edc-b1d2-72ac475b80f8', 'Present status of symptoms');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', 'c3bf2417-7f26-4c32-a4fe-8869e9cb77c2', 'Type of cancer');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '2f36f3da-9ae1-4d21-bfd5-7dd08def596e', 'Medicines which are administered now_Cerebro Vascular accident');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '40877e9f-06be-483a-b530-17365324049a', 'Medicine provider');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '890a510d-0654-4f9b-9652-9baf057581e5', 'Is there any change in medication');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '3d7f627a-797c-4c28-8e7b-180e016859e4', 'What management was suggested');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', 'db2554c7-3764-4dfe-87a6-a5920962fa5a', 'Medicines which are administered now_Hypertension');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', 'b50598dd-2194-437e-bf52-4bb2bb039ae7', 'Medicines which are administered now_Dyslipidemia');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', 'd58ce896-4d62-4c34-b700-6f38500685e6', 'Medicines which are administered now_Diabetes Mellitus');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '23559680-01c9-49be-8f61-50e1d27dbc85', 'Medicines which are administered now_COPD');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', 'c08eaa3a-fb36-453c-b783-d7d85e0b7635', 'Medicines which are administered now_Thyroid disorders');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '0311d476-9d7a-4606-a4e1-5029e6a3eaf3', 'Medicines which are administered now_Cardiac diseases');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', 'add24bf7-fe4f-4a55-bd18-eed26f757036', 'Type of tuberculosis');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', 'c6ad73fa-151d-410e-b2a0-2b7a3aebcc92', 'Clinical findings');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '968b663c-c2f9-47ef-a856-5be469e7d076', 'Investigative findings');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', 'f4fa10f5-b215-4197-bacc-562137e766a5', 'Type of patient');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', 'f80e5f0f-3d5d-40dc-93e5-3bc47c5c73b6', 'Phase of treatment');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '2dd44b5f-4210-4236-8034-9229b19aa879', 'Category of medicine');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', 'd801905b-87c7-422a-b52d-6190a7b50318', 'Sputum before treatment');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '84763eba-af9b-48ba-82cf-06ca8d0b42e6', 'Does the patient have a DOTS provider');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '9acca2da-5d3a-4a6a-a87b-9841ac5df28f', 'Did the DOTS provider receive the medicine from the government this month');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', 'f88a5f79-8e56-481e-81e7-c4e641b646bf', 'Did you take the medicine regularly in this month');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', 'c15e4b44-14c2-43c7-90be-2984e5b48c63', 'Was the treatment successfully completed');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '28bfbe88-2f9a-460f-90a6-8cdeee94d96e', 'Sputum after treatment');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '4809f145-b82f-4417-984b-ce776d7f35d4', 'Antara counselling point');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '5de2e209-2112-4ca7-8e0c-fa4124d9a1b2', 'Diagnosis_MH');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', 'd8747b29-5424-4ff4-9530-2cdebf40a62e', 'Is the patient under medication');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '6e779581-a70b-4557-b1ac-36c5d4022e02', 'What was the reason for stopping medication');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '5e154f7d-7bd8-43fe-8c7d-a28107baa364', 'How is the sleeping pattern');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', 'bbc2c68a-1739-421f-95ce-9fe62fdb70c9', 'How is appetite');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '3e6f210b-913d-48d9-a38f-9d9c4857a0f4', 'How is hygiene');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '0d8ae5ce-e006-4481-a81a-698ad68d0fb7', 'Is the patient behaving as per the social norms');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '58b83697-dc26-4eda-9cd9-fb02abab74d3', 'Is the patient cooperating with you');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '6a79d815-7d1d-40a4-b49c-f38e78c6f253', 'Is the patient having any false beliefs');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', 'eaa81d62-a481-4177-98fe-a3cb1d614537', 'Is the patient depressed');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '770eb6f9-1c3c-4292-b510-7c5a824d8c11', 'Did the patient have any episode of convulsions');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '36369dbf-31ca-4931-9d34-d54565f4a491', 'Was there any side effect from taking the medication');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '40ceadef-9bed-4775-9776-acdc5044281e', 'What management was proposed for the month');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '7c061d33-a2a9-458c-8fa3-4484530fdae8', 'Medicines are being given');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '5532eb35-9e62-4bd9-9026-2015c517e8e0', 'Did you see the patient during the month');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '89953bee-424f-45b2-be60-cae34ff5ecb2', 'Place of visit');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', 'faac4042-236c-4127-8ef4-7a7a1b06daf9', 'Is the patient engaged in work inside or outside their home');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '41eb71af-f4c4-4b89-9222-43b24022478c', 'Is the patient seeing,hearing,feeling,tasting or smelling things which are non-existent');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', 'a4213fd7-5214-4b09-8202-9007dc8aace4', 'Is the patient having any fear or anxiety');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '5311ca70-dfc6-4a03-8162-962a598649a0', 'Is the patient extremely happy ,excited or restless');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', 'e37e2065-c203-47ca-9c25-51bf58b7b8d5', 'Is the patient under the influence of alcohol or drugs');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '4c9d93ea-fdb0-4b0b-9704-4e1a7309ecb8', 'Is the patient having or expressing suicidal ideation');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '4457b5f0-2195-4423-861d-6812080e07e3', 'Is the patient showing violent behavior');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', 'd3311c46-9c21-465f-8e16-0ac276982a73', 'Is the patient regular in medication');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '613e4132-9504-4d9b-81cb-cf35798e3e0f', 'What changes were made to medicines');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '983035e5-32ea-4310-a4ca-b134b2ae6b25', 'Medium of obtaining patient information during the month');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '0aeac13b-379e-408c-a8fc-20cee388a263', 'Medicines which are administered now');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '5e2c79a1-efc7-4f53-8818-cc0e78a586ed', 'Place of death');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '7dc0f407-3d1d-4440-be4e-6d63d77658b4', 'Category of person');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '30076876-b63a-4b04-87c5-186ef4a78f27', 'Cause of death_Stillbirth');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '51752f1d-92a0-42bb-b6e1-aae2b3555dd9', 'Cause of death_Early neonatal');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '4574b9ef-7292-4efd-9ea2-c94a5209f303', 'Cause of death_Late neonatal death');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '0d063872-6c3f-4fa5-8c57-3c6af0caa164', 'Cause of death_Infant death');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', 'ccacc6be-cb25-4730-b687-d50ce7c60e75', 'Cause of death_Under five Death');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', 'e0354166-b268-4f26-b46a-85447d282a30', 'Cause of death_Maternal death');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '0dd72948-97ab-48cb-b991-651278745ec1', 'Predisposing factors');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '938c6021-c5c9-4695-ac53-6b646668323a', 'Cause of death_Above 5 years');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', '27e4be67-45c6-425e-ba0e-1d7e271bb6c7', 'Are you using chaaya regularly');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', 'b71b296f-9af2-4222-ae43-fea39be0f357', 'Reason for Exit');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', 'd02b5a0b-b50d-4881-8dc4-e1fb28f3be90', 'Reason Of Cancel');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', 'c7286d93-e5a7-4a9c-b0c5-7b3d61904fad', 'Medication was started_Hypertension');
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
-values ('Observation', 'Concept', 'e6947a8a-c639-4342-bb8d-139522bded3a', 'Medication was started_Diabetes Mellitus');
 
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '9cd7494a-c239-423e-98a8-309fdac61a61', 'Tribe', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', 'f66f5530-75ce-4175-aa20-d8ecd38302a7', 'Sickle cell status', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', 'daea556e-a2a4-4cc2-b132-f2a066d05fb7', 'Place of insertion of copper-T', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '503f46a4-51f1-40f9-bf95-7ba3ab4a1df3', 'Ever been pregnant', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '3a582352-e9b5-4d6a-a696-deeee420fb29', 'Type of procedure', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '08d42c73-72d2-4914-9fb1-15142ef1a1d8', 'Type of temporary method you are using now', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '7a3ded14-16c8-4abb-b65e-fb0d0e055cfd', 'Place of procedure', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '0e7e4374-9f2c-4edb-b9fd-54edb39501be', 'Type of Permanent Sterilization', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', 'dcc46565-5403-4aa1-a3af-6ac267d575de', 'Sickle cell status of spouse', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', 'c85085a4-dd56-4177-b275-7cb47f459c40', 'What method of sterilization are you using currently', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '26269efc-224d-4327-abfb-b73208368254', 'Have you had any side effects', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', 'bccefcd3-a9e6-4994-a5d6-ef58c4054298', 'What side effects did you have', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', 'bf24eef0-08ad-4799-8c7b-445f94f4e0c6', 'Was the CuT removed', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '6b0a039e-dc0a-4b10-8341-9049a6253933', 'Reasons for removal', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '962a601e-6171-4804-aa7c-9e1369c26cb0', 'Are you using condom regularly', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', 'f0305ac0-4f9a-49b8-94b8-15af86b2e103', 'What are the reasons for not using condom regularly', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '7f6c531d-9a6c-45d9-8df1-8d832a3c93a4', 'Are you using OCP regularly', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '2904760d-de20-489f-b815-fc9b795d0ac0', 'What are the reasons for not using OCP regularly', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '27f182c0-6e95-4967-b9df-60191f092df3', 'Source of Availability', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '87a2be02-071d-4fcf-89ff-2e7aeae87744', 'Do you have any side effects', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '6a4a6997-725b-4147-a7e2-e8504dd15e7a', 'Antara Source of Availability', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '7de92d14-1798-404a-87be-221f38f15c4e', 'Antara Do you have any side effects', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '2c17dac6-bbe9-41c4-945b-997203e04e1d', 'Chhaya Counselling Point', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '97aa5497-f30d-4ac7-8fa3-875b645bfaab', 'Was the disease value checked', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '125976a1-44cc-4b51-8cc8-f7de31db5779', 'Marriage status', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', 'c7229676-9237-4203-be7d-299537449fc5', 'Was pneumococcal vaccine administered', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '9f25e549-2800-4306-bc59-cabc7d113dc2', 'Sickle cell status of father', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '1b24a3db-c5aa-4285-9acf-dbdbc8823ae1', 'Sickle cell status of mother', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '4bfc1057-6064-4ff2-9a42-40a5880c5419', 'Was counselling given this month', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', 'a2e2cd8f-b51b-4c24-a478-0a02ce5439f6', 'Present condition', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '164b2447-8f12-43dc-90f7-07d74e8b03d5', 'Drug administered', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '8f21da39-fc3e-4a4c-91e2-d09f5cd6eb25', 'Medication was started_COPD', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '90465188-e224-4231-82a4-6caa5474197a', 'Medication was started_Thyroid disorders', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', 'a38f87c0-ae87-457c-b45b-0bd7adf56cb7', 'Medication was started_Cardiac diseases', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', 'cda70c2d-1ec5-4955-a6eb-4c74414e74d9', 'Medication was started_Dyslipidemia', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', 'a1871a54-71c6-4438-9179-b682e0c211d2', 'Medication was started_Cerebro vascular accuident', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '8e7e34a5-8e6b-4b43-9d74-d389a56169b1', 'Diagnosis', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '9d7b52e2-e204-4068-93aa-a73cd9070e41', 'Present diagnosis', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '54c33682-27df-4edc-b1d2-72ac475b80f8', 'Present status of symptoms', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', 'c3bf2417-7f26-4c32-a4fe-8869e9cb77c2', 'Type of cancer', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '2f36f3da-9ae1-4d21-bfd5-7dd08def596e', 'Medicines which are administered now_Cerebro Vascular accident', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '40877e9f-06be-483a-b530-17365324049a', 'Medicine provider', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '890a510d-0654-4f9b-9652-9baf057581e5', 'Is there any change in medication', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '3d7f627a-797c-4c28-8e7b-180e016859e4', 'What management was suggested', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', 'db2554c7-3764-4dfe-87a6-a5920962fa5a', 'Medicines which are administered now_Hypertension', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', 'b50598dd-2194-437e-bf52-4bb2bb039ae7', 'Medicines which are administered now_Dyslipidemia', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', 'd58ce896-4d62-4c34-b700-6f38500685e6', 'Medicines which are administered now_Diabetes Mellitus', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '23559680-01c9-49be-8f61-50e1d27dbc85', 'Medicines which are administered now_COPD', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', 'c08eaa3a-fb36-453c-b783-d7d85e0b7635', 'Medicines which are administered now_Thyroid disorders', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '0311d476-9d7a-4606-a4e1-5029e6a3eaf3', 'Medicines which are administered now_Cardiac diseases', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', 'add24bf7-fe4f-4a55-bd18-eed26f757036', 'Type of tuberculosis', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', 'c6ad73fa-151d-410e-b2a0-2b7a3aebcc92', 'Clinical findings', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '968b663c-c2f9-47ef-a856-5be469e7d076', 'Investigative findings', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', 'f4fa10f5-b215-4197-bacc-562137e766a5', 'Type of patient', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', 'f80e5f0f-3d5d-40dc-93e5-3bc47c5c73b6', 'Phase of treatment', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '2dd44b5f-4210-4236-8034-9229b19aa879', 'Category of medicine', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', 'd801905b-87c7-422a-b52d-6190a7b50318', 'Sputum before treatment', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '84763eba-af9b-48ba-82cf-06ca8d0b42e6', 'Does the patient have a DOTS provider', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '9acca2da-5d3a-4a6a-a87b-9841ac5df28f', 'Did the DOTS provider receive the medicine from the government this month', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', 'f88a5f79-8e56-481e-81e7-c4e641b646bf', 'Did you take the medicine regularly in this month', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', 'c15e4b44-14c2-43c7-90be-2984e5b48c63', 'Was the treatment successfully completed', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '28bfbe88-2f9a-460f-90a6-8cdeee94d96e', 'Sputum after treatment', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '4809f145-b82f-4417-984b-ce776d7f35d4', 'Antara counselling point', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '5de2e209-2112-4ca7-8e0c-fa4124d9a1b2', 'Diagnosis_MH', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', 'd8747b29-5424-4ff4-9530-2cdebf40a62e', 'Is the patient under medication', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '6e779581-a70b-4557-b1ac-36c5d4022e02', 'What was the reason for stopping medication', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '5e154f7d-7bd8-43fe-8c7d-a28107baa364', 'How is the sleeping pattern', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', 'bbc2c68a-1739-421f-95ce-9fe62fdb70c9', 'How is appetite', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '3e6f210b-913d-48d9-a38f-9d9c4857a0f4', 'How is hygiene', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '0d8ae5ce-e006-4481-a81a-698ad68d0fb7', 'Is the patient behaving as per the social norms', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '58b83697-dc26-4eda-9cd9-fb02abab74d3', 'Is the patient cooperating with you', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '6a79d815-7d1d-40a4-b49c-f38e78c6f253', 'Is the patient having any false beliefs', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', 'eaa81d62-a481-4177-98fe-a3cb1d614537', 'Is the patient depressed', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '770eb6f9-1c3c-4292-b510-7c5a824d8c11', 'Did the patient have any episode of convulsions', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '36369dbf-31ca-4931-9d34-d54565f4a491', 'Was there any side effect from taking the medication', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '40ceadef-9bed-4775-9776-acdc5044281e', 'What management was proposed for the month', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '7c061d33-a2a9-458c-8fa3-4484530fdae8', 'Medicines are being given', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '5532eb35-9e62-4bd9-9026-2015c517e8e0', 'Did you see the patient during the month', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '89953bee-424f-45b2-be60-cae34ff5ecb2', 'Place of visit', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', 'faac4042-236c-4127-8ef4-7a7a1b06daf9', 'Is the patient engaged in work inside or outside their home', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '41eb71af-f4c4-4b89-9222-43b24022478c', 'Is the patient seeing,hearing,feeling,tasting or smelling things which are non-existent', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', 'a4213fd7-5214-4b09-8202-9007dc8aace4', 'Is the patient having any fear or anxiety', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '5311ca70-dfc6-4a03-8162-962a598649a0', 'Is the patient extremely happy ,excited or restless', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', 'e37e2065-c203-47ca-9c25-51bf58b7b8d5', 'Is the patient under the influence of alcohol or drugs', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '4c9d93ea-fdb0-4b0b-9704-4e1a7309ecb8', 'Is the patient having or expressing suicidal ideation', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '4457b5f0-2195-4423-861d-6812080e07e3', 'Is the patient showing violent behavior', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', 'd3311c46-9c21-465f-8e16-0ac276982a73', 'Is the patient regular in medication', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '613e4132-9504-4d9b-81cb-cf35798e3e0f', 'What changes were made to medicines', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '983035e5-32ea-4310-a4ca-b134b2ae6b25', 'Medium of obtaining patient information during the month', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '0aeac13b-379e-408c-a8fc-20cee388a263', 'Medicines which are administered now', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '5e2c79a1-efc7-4f53-8818-cc0e78a586ed', 'Place of death', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '7dc0f407-3d1d-4440-be4e-6d63d77658b4', 'Category of person', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '30076876-b63a-4b04-87c5-186ef4a78f27', 'Cause of death_Stillbirth', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '51752f1d-92a0-42bb-b6e1-aae2b3555dd9', 'Cause of death_Early neonatal', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '4574b9ef-7292-4efd-9ea2-c94a5209f303', 'Cause of death_Late neonatal death', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '0d063872-6c3f-4fa5-8c57-3c6af0caa164', 'Cause of death_Infant death', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', 'ccacc6be-cb25-4730-b687-d50ce7c60e75', 'Cause of death_Under five Death', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', 'e0354166-b268-4f26-b46a-85447d282a30', 'Cause of death_Maternal death', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '0dd72948-97ab-48cb-b991-651278745ec1', 'Predisposing factors', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '938c6021-c5c9-4695-ac53-6b646668323a', 'Cause of death_Above 5 years', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', '27e4be67-45c6-425e-ba0e-1d7e271bb6c7', 'Are you using chaaya regularly', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', 'b71b296f-9af2-4222-ae43-fea39be0f357', 'Reason for Exit', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', 'd02b5a0b-b50d-4881-8dc4-e1fb28f3be90', 'Reason Of Cancel', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', 'c7286d93-e5a7-4a9c-b0c5-7b3d61904fad', 'Medication was started_Hypertension', 'Coded');"
+"insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', 'e6947a8a-c639-4342-bb8d-139522bded3a', 'Medication was started_Diabetes Mellitus', 'Coded');"
 
 
 insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
