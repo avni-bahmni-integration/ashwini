@@ -3,7 +3,14 @@ define _run_mysql_script
 endef
 
 define _run_mapping_changes
-	cd db/integration && cat $1 | psql -h localhost -d bahmni_avni bahmni_avni_admin -1
+	cd db/integration && cat $2 | psql -h localhost -d $1 bahmni_avni_admin -1
+endef
+
+define _deploy_mapping_changes
+	$(call _run_mapping_changes,$1,clean.sql)
+	$(call _fix_sql_file,concept-mapping.sql)
+	$(call _run_mapping_changes,$1,concept-mapping.sql)
+	$(call _run_mapping_changes,$1,other-mapping.sql)
 endef
 
 define _fix_sql_file
@@ -20,7 +27,7 @@ deploy-openmrs-db-changes:
 	$(call _run_mysql_script,other_metadata.sql)
 
 deploy-mapping-changes-local:
-	$(call _run_mapping_changes,clean.sql)
-	$(call _fix_sql_file,concept-mapping.sql)
-	$(call _run_mapping_changes,concept-mapping.sql)
-	$(call _run_mapping_changes,other-mapping.sql)
+	$(call _deploy_mapping_changes,bahmni_avni)
+
+deploy-mapping-changes-local-test:
+	$(call _deploy_mapping_changes,bahmni_avni_test)
