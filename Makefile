@@ -7,10 +7,12 @@ define _run_mapping_changes
 endef
 
 define _deploy_mapping_changes
-	$(call _run_mapping_changes,$1,clean.sql)
 	$(call _fix_sql_file,concept-mapping.sql)
+
+	$(call _run_mapping_changes,$1,clean.sql)
 	$(call _run_mapping_changes,$1,concept-mapping.sql)
 	$(call _run_mapping_changes,$1,other-mapping.sql)
+	$(call _run_mapping_changes,$1,constants.sql)
 endef
 
 define _fix_sql_file
@@ -25,6 +27,9 @@ deploy-openmrs-db-changes:
 	$(call _run_mysql_script,procedures.sql)
 	$(call _run_mysql_script,concepts.sql)
 	$(call _run_mysql_script,other_metadata.sql)
+
+clean-openmrs-tx-data:
+	$(call _run_mysql_script,txDataClean.sql)
 
 deploy-mapping-changes-local:
 	$(call _deploy_mapping_changes,bahmni_avni)
