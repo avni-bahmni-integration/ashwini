@@ -1,3 +1,4 @@
+-- Avni to Bahmni
 insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
 values ('Observation', 'Concept', '3611bf5b-c223-4f67-ae7b-96951c37124e', 'Sangam number', 'Numeric');
 insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
@@ -953,3 +954,17 @@ insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, av
 values ('Observation', 'Concept', '9c679bd5-8816-419c-b4f5-bf4998dbc282', 'Not compliant with treatment');
 insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
 values ('Observation', 'Concept', '5b1483ce-eaae-4730-a28d-5e3b5e9d6aeb', 'Symptoms got relieved');
+
+-- Bahmni to Avni
+
+--- Primitive
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', 'c1f84df3-3f10-11e4-adec-0800271c1b75', 'Father''s/Husband''s Name [Bahmni]', 'Numeric');
+
+--- Coded
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', 'c1f4a004-3f10-11e4-adec-0800271c1b75', 'Education Details [Bahmni]', 'Numeric');
+
+--- Answers
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
+values ('Observation', 'Concept', 'c2123edc-3f10-11e4-adec-0800271c1b75', '6th to 9th [Bahmni]', 'Numeric');
