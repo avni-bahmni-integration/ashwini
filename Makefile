@@ -34,5 +34,5 @@ clean-openmrs-tx-data:
 deploy-mapping-changes-local:
 	$(call _deploy_mapping_changes,bahmni_avni)
 
-deploy-mapping-changes-local-test:
-	$(call _deploy_mapping_changes,bahmni_avni_test)
+create-db-dump: deploy-mapping-changes-local
+	pg_dump -Ubahmni_avni_admin -hlocalhost -d bahmni_avni > db/dump.sql
