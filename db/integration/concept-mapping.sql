@@ -958,13 +958,85 @@ values ('Observation', 'Concept', '5b1483ce-eaae-4730-a28d-5e3b5e9d6aeb', 'Sympt
 -- Bahmni to Avni
 
 --- Primitive
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
-values ('Observation', 'Concept', 'c1f84df3-3f10-11e4-adec-0800271c1b75', 'Father''s/Husband''s Name [Bahmni]', 'Numeric');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', 'c1f84df3-3f10-11e4-adec-0800271c1b75', 'Father''s/Husband''s Name [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '9234695b-0f68-4970-aeb7-3b32d4a2b346', 'Sangam Head [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', 'cc960536-d7f5-4dc1-8d14-c43ffbd741bc', 'Patient Contact Number [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', 'afd473e5-000e-4137-852c-11b980deaf0c', 'Ration Card Number [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '3e8cd4fb-cc94-4608-b705-f9a20302f075', 'CMCHIS Card Number [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', 'd04b3225-52b9-41ef-8d29-d67aaac00c42', 'Aadhar card number [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', 'e639cbae-3a20-440e-b5f1-effa2c584d77', 'Sangam Number [Bahmni]');
 
 --- Coded
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
-values ('Observation', 'Concept', 'c1f4a004-3f10-11e4-adec-0800271c1b75', 'Education Details [Bahmni]', 'Numeric');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', 'c1f4a004-3f10-11e4-adec-0800271c1b75', 'Education Details [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', 'c1f7d1f1-3f10-11e4-adec-0800271c1b75', 'Occupation [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '59a6aee8-99bf-4386-a6f3-8630dbbcbc52', 'Is Tribal [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '7ba3e7c2-2735-42c0-a03b-e300c99e34d9', 'Choose Tribe [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '4e723c81-f150-43ef-99b8-3a219fa6137b', 'Is Sangam [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '9c6094a6-353d-4e5d-85c3-d97d5508192f', 'Is Premium Paid [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '7a0a3ad9-5035-4d99-b5db-d386364e3dd6', 'Visiting [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', 'db157c6c-3dbd-465a-8efb-41a02985c62b', 'SC Status [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', 'f1c6a01f-9a6d-4d31-a559-75ef92ca5ded', 'Blood Grouping Status [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', 'c6e62d19-9d18-42cb-931e-529ebcc9feef', 'Patient Category [Bahmni]');
 
 --- Answers
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)
-values ('Observation', 'Concept', 'c2123edc-3f10-11e4-adec-0800271c1b75', '6th to 9th [Bahmni]', 'Numeric');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', 'c2107f30-3f10-11e4-adec-0800271c1b75', 'Uneducated [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', 'c211442b-3f10-11e4-adec-0800271c1b75', '5th Pass and Below [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', 'c2123edc-3f10-11e4-adec-0800271c1b75', '6th to 9th [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', 'c2139dd9-3f10-11e4-adec-0800271c1b75', '10th pass [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', 'c214d657-3f10-11e4-adec-0800271c1b75', '12th pass [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', 'c22054ce-3f10-11e4-adec-0800271c1b75', 'Graduate and Above [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', 'c2222941-3f10-11e4-adec-0800271c1b75', 'Unemployed [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', 'c2232daf-3f10-11e4-adec-0800271c1b75', 'Student [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', 'c223fe8d-3f10-11e4-adec-0800271c1b75', 'Government [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', 'c224c534-3f10-11e4-adec-0800271c1b75', 'Business [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', 'c2259b07-3f10-11e4-adec-0800271c1b75', 'Housewife [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', 'c22666ac-3f10-11e4-adec-0800271c1b75', 'Labour [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '41207c87-d18d-4335-88dd-dc63f305a779', 'Other occupation [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '78763e68-104e-465d-8ce3-35f9edfb083d', 'TRUE [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', 'f9f633a5-1544-4c44-9394-a7f746a12dff', 'FALSE [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', 'c67c56d4-4e56-413d-bec4-ca733d3482de', 'Irula [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', 'd9fee149-7451-4f00-a675-befe8ff63a07', 'Paniya [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '83a2fe6e-e01b-413d-a70c-1d53c326de66', 'Bettakurumba [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '9bc8d308-e740-48bd-ac4e-aac1b509b52d', 'Kattunayaka [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '8a2c574b-def6-4d54-96f5-f6a760b46d68', 'Mullukurumba [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', 'f2355233-c552-4cd6-802f-0c7c75221f03', 'Not Applicable [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '78763e68-104e-465d-8ce3-35f9edfb083d', 'TRUE [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', 'f9f633a5-1544-4c44-9394-a7f746a12dff', 'FALSE [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '78763e68-104e-465d-8ce3-35f9edfb083d', 'TRUE [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', 'f9f633a5-1544-4c44-9394-a7f746a12dff', 'FALSE [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '7c8c16bb-ee03-4e63-a15c-6fe86db235e2', 'Departments, General OPD [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '2c619057-bebd-4ac3-999e-a35757fe77f6', 'Departments, ENT [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '08a120da-f84e-4f8f-849a-be2a589d4dfb', 'Departments, Orthopedic [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', 'ca2cbaaf-8d66-42ef-b6df-0463794fb609', 'Departments, Vascular [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '56a17ddd-f441-4b57-92d5-788b1fee9cdb', 'Departments, Cardiology [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '2d251c03-f910-418c-a992-29aa544f69e8', 'Departments, Paediatrics [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', 'c1e710d1-3dde-4c76-a74e-446f7ff38f43', 'Departments, Dermatology [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '1cff782d-b8a0-4589-83cc-e8427d3c24a3', 'Departments, Disabled [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '50a6914c-6910-49dd-9ad2-d33efe99a066', 'Departments, Dental [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '3d809fe4-6d2c-47ee-9ade-50c7a57725a9', 'Departments, Psychiatric [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '65209998-1506-42e0-b0cc-6aa04f1a0a30', 'Departments, Obstetrics and Gynecology [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '7d3d2bdf-5b3c-4937-ae0d-33009fec948a', 'Departments, Urology [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '771b7eb7-9fe2-4af0-810e-34545eebc36c', 'Departments, Medicine Only [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '35d87700-5895-4f52-9c1d-bce8ca98951c', 'Departments, Lab Results only [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '92bc2bdd-3163-49f7-8f98-0b9ad9b3e369', 'Departments, SCAN [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '4bf7fd0e-9298-442b-bd3b-a350c9b4bb99', 'Departments, Endoscopy [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', 'd0da2b2c-af94-47cf-a256-5d4cab62287b', 'Departments, Followup [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '0548da4d-3725-41e8-8c0e-4c944956c1b4', 'Departments, Physiotherapy [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '718b4589-2a11-4355-b8dc-aa668a93e098', 'Negative [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '7acfafa4-f19b-485e-97a7-c9e002dbe37a', 'Positive [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '88c17105-9dc6-45eb-bb0f-ac8d29700f8d', 'AA [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '0fe64012-9bc6-4f85-840c-9242d06f4a14', 'As [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '2efa1e6e-4710-46b3-936a-b4b06a3d0d1f', 'SS [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '44625a00-d08e-43d4-b590-61e37c49b59d', 'Not Performed [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', 'aa251495-b536-42e3-8bcc-55000b0b0bf9', 'O Positive [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '977d71a9-b13c-4757-b4a2-19588353b4a9', 'A negative [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', 'ed159068-8f33-4143-8257-9d5bdf41ab49', 'A positive [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '9e5b3e38-67f0-4407-b090-6e31ef2af33a', 'B negative [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '324f4ebd-25a8-45b1-a395-fa1322223d24', 'B Positive [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '12ae6c85-dc0f-4964-9a42-d841adce8e45', 'O negative [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '44625a00-d08e-43d4-b590-61e37c49b59d', 'Not Performed [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '20075176-4ce8-42cb-9af9-d5155a973164', 'AB positive [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '5056aecb-f56e-435d-a389-16a842408337', 'AB negative [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '29034aba-2ece-415a-a509-ffbec18c50c3', 'Staffs [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '845126fc-9267-476d-8f9a-d215a5a08f41', 'Sickle Cell Patients [Bahmni]');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value) values ('PatientSubject', 'PersonAttributeConcept', '830f757c-02ec-416c-a23b-f04f9ca4ef4e', 'General Patients [Bahmni]');
