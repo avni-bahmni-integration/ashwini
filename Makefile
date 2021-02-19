@@ -36,3 +36,7 @@ deploy-mapping-changes-local:
 
 create-db-dump: deploy-mapping-changes-local
 	pg_dump -Ubahmni_avni_admin -hlocalhost -d bahmni_avni > db/dump.sql
+
+clean-openmrs-tx-data-remotely:
+	ssh avnibahmni "cd ashwini && make clean-openmrs-tx-data"
+	date
