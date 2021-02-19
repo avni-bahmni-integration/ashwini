@@ -31,12 +31,16 @@ deploy-openmrs-db-changes:
 clean-openmrs-tx-data:
 	$(call _run_mysql_script,txDataClean.sql)
 
+clean-openmrs-tx-data-remotely:
+	ssh avnibahmni "cd ashwini && make clean-openmrs-tx-data"
+	date
+
 deploy-mapping-changes-local:
 	$(call _deploy_mapping_changes,bahmni_avni)
 
 create-db-dump: deploy-mapping-changes-local
 	pg_dump -Ubahmni_avni_admin -hlocalhost -d bahmni_avni > db/dump.sql
 
-clean-openmrs-tx-data-remotely:
-	ssh avnibahmni "cd ashwini && make clean-openmrs-tx-data"
-	date
+publish-db-dump: create-db-dump
+	cp db/dump.sql ../integration-service/dump.sql
+
