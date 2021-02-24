@@ -34,4 +34,4 @@ insert into encounter_type (name, date_created, uuid, changed_by, date_changed, 
 values ('Family Planning Community Enrolment', curdate(), '68f4ee11-87dd-42d6-8753-cb61fe3bb2e5', 1, curdate(), 1);
 
 insert into encounter_type (name, date_created, uuid, changed_by, date_changed, creator)
-values ('Mental Health Community Enrolment [Avni]', curdate(), '8a7175ec-2a04-4f51-9a10-3080b34361ed', 1, curdate(), 1);
+values ('Mental Health Community Enrolment', curdate(), '8a7175ec-2a04-4f51-9a10-3080b34361ed', 1, curdate(), 1);
