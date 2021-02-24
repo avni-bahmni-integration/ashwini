@@ -1,26 +1,14 @@
-define _run_mysql_script
-	mysql -uroot -ppassword openmrs < db/openmrs/$1
-endef
-
-define _run_mapping_changes
-	cd db/integration && cat $2 | psql -h localhost -d $1 bahmni_avni_admin -1
-endef
-
-define _deploy_mapping_changes
-	$(call _fix_sql_file,concept-mapping.sql)
-
-	$(call _run_mapping_changes,$1,clean.sql)
-	$(call _run_mapping_changes,$1,concept-mapping.sql)
-	$(call _run_mapping_changes,$1,other-mapping.sql)
-	$(call _run_mapping_changes,$1,constants.sql)
-	$(call _run_mapping_changes,$1,markers.sql)
-endef
-
+############ COMMON
 define _fix_sql_file
 	find db/integration/$1 -type f -exec sed -i '' 's/"insert/insert/g' {} \;
 	find db/integration/$1 -type f -exec sed -i '' 's/"update/update/g' {} \;
 	find db/integration/$1 -type f -exec sed -i '' 's/"delete/delete/g' {} \;
 	find db/integration/$1 -type f -exec sed -i '' 's/;"/;/g' {} \;
+endef
+
+########### BAHMNI
+define _run_mysql_script
+	mysql -uroot -ppassword openmrs < db/openmrs/$1
 endef
 
 deploy-openmrs-db-changes:
@@ -36,9 +24,41 @@ clean-openmrs-tx-data-remotely:
 	ssh avnibahmni "cd ashwini && make clean-openmrs-tx-data"
 	date
 
+########### AVNI
+define _run_sql_on_staging
+	ssh avni-server-staging "cat /tmp/avni-bahmni-integration/$1 | PGPASSWORD=password psql -Uopenchs -h stagingdb.cnwnxgm8rsnb.ap-south-1.rds.amazonaws.com openchs"
+endef
+
+copy-avnidb-files-to-staging:
+	-ssh avni-server-staging "rm /tmp/avni-bahmni-integration/*.sql"
+	-ssh avni-server-staging "mkdir /tmp/avni-bahmni-integration"
+	scp db/avni/*.sql avni-server-staging:/tmp/avni-bahmni-integration
+
+deploy-avni-db-changes: copy-avnidb-files-to-staging
+	$(call _run_sql_on_staging,clean.sql)
+	$(call _run_sql_on_staging,concepts.sql)
+	$(call _run_sql_on_staging,concept-answers.sql)
+	$(call _run_sql_on_staging,other_metadata.sql)
+
+########### INTEGRATION Database
+define _run_mapping_changes
+	cd db/integration && cat $2 | psql -h localhost -d $1 bahmni_avni_admin -1
+endef
+
+define _deploy_mapping_changes
+	$(call _fix_sql_file,concept-mapping.sql)
+
+	$(call _run_mapping_changes,$1,clean.sql)
+	$(call _run_mapping_changes,$1,concept-mapping.sql)
+	$(call _run_mapping_changes,$1,other-mapping.sql)
+	$(call _run_mapping_changes,$1,constants.sql)
+	$(call _run_mapping_changes,$1,markers.sql)
+endef
+
 deploy-mapping-changes-local:
 	$(call _deploy_mapping_changes,bahmni_avni)
 
+###########  UTILITY
 create-db-dump: deploy-mapping-changes-local
 	pg_dump -Ubahmni_avni_admin -hlocalhost -d bahmni_avni > db/dump.sql
 

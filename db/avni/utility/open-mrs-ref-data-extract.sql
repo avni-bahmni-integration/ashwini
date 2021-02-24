@@ -1,4 +1,4 @@
--- Coded Answers
+-- Person Coded Answers
 select answer_name.name, answer.uuid, COALESCE(pt.description, pt.name)
 from concept_answer mapping
          join concept question on question.concept_id = mapping.concept_id
@@ -17,7 +17,7 @@ ENCLOSED BY '"'
 LINES TERMINATED BY '\n';
 
 
--- Coded Attribute Types
+-- Person Coded Attribute Types
 select COALESCE(pt.description, pt.name), pt.uuid
 from person_attribute_type pt
          join concept question on pt.foreign_key=question.concept_id
@@ -31,7 +31,7 @@ FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n';
 
--- Primitive Attribute Types
+-- Person Primitive Attribute Types
 select COALESCE(pt.description, pt.name), pt.uuid
 from person_attribute_type pt
 where 1 = 1

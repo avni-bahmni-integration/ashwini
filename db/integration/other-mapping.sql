@@ -16,6 +16,12 @@ values ('PatientSubject', 'PatientUUID_Concept', null, 'Bahmni Entity UUID [Bahm
 insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, about)
 values ('PatientSubject', 'Patient_EncounterType', null, 'Bahmni Registration Encounter', 'Encounter type in OpenMRS for subject registration data in Avni');
 
+-- General Encounter
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
+values ('GeneralEncounter', 'EncounterType', '81852aee-3f10-11e4-adec-0800271c1b75', 'Hospital Consultation');
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
+values ('GeneralEncounter', 'EncounterType', '81dd3390-3f10-11e4-adec-0800271c1b75', 'Hospital Discharge Summary');
+
 -- AVNI TO BAHMNI
 -- Audit
 insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
