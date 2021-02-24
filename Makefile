@@ -13,6 +13,7 @@ define _deploy_mapping_changes
 	$(call _run_mapping_changes,$1,concept-mapping.sql)
 	$(call _run_mapping_changes,$1,other-mapping.sql)
 	$(call _run_mapping_changes,$1,constants.sql)
+	$(call _run_mapping_changes,$1,markers.sql)
 endef
 
 define _fix_sql_file
@@ -43,4 +44,3 @@ create-db-dump: deploy-mapping-changes-local
 
 publish-db-dump: create-db-dump
 	cp db/dump.sql ../integration-service/dump.sql
-
