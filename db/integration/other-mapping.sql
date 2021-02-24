@@ -5,13 +5,12 @@ values ('PatientSubject', 'Patient_SubjectType', null, 'Individual', 'Subject ty
 
 
 -- BAHMNI TO AVNI
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, about)
+values ('Common', 'BahmniUUID_Concept', null, 'Bahmni Entity UUID [Bahmni]', 'External uuid is used to match entities after first save');
 -- PatientSubject
 insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, about)
 values ('PatientSubject', 'PatientIdentifier_Concept', 'Patient Identifier', 'Sangam Number',
         'Subject type should be inferred from the metadata mapping name Patient Subject Type.');
-
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, about)
-values ('PatientSubject', 'PatientUUID_Concept', null, 'Bahmni Entity UUID [Bahmni]', 'External uuid is used to match entities after first save');
 
 insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, about)
 values ('PatientSubject', 'Patient_EncounterType', null, 'Bahmni Registration Encounter', 'Encounter type in OpenMRS for subject registration data in Avni');
