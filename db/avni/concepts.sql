@@ -81,14 +81,6 @@ VALUES ('NA', 'Mullukurumba [Bahmni]', uuid_generate_v4(), 0, (select id from or
 insert into concept (data_type, name, uuid, version, organisation_id, audit_id)
 VALUES ('NA', 'Not Applicable [Bahmni]', uuid_generate_v4(), 0, (select id from organisation), create_audit());
 insert into concept (data_type, name, uuid, version, organisation_id, audit_id)
-VALUES ('NA', 'TRUE [Bahmni]', uuid_generate_v4(), 0, (select id from organisation), create_audit());
-insert into concept (data_type, name, uuid, version, organisation_id, audit_id)
-VALUES ('NA', 'FALSE [Bahmni]', uuid_generate_v4(), 0, (select id from organisation), create_audit());
-insert into concept (data_type, name, uuid, version, organisation_id, audit_id)
-VALUES ('NA', 'TRUE [Bahmni]', uuid_generate_v4(), 0, (select id from organisation), create_audit());
-insert into concept (data_type, name, uuid, version, organisation_id, audit_id)
-VALUES ('NA', 'FALSE [Bahmni]', uuid_generate_v4(), 0, (select id from organisation), create_audit());
-insert into concept (data_type, name, uuid, version, organisation_id, audit_id)
 VALUES ('NA', 'Departments, General OPD [Bahmni]', uuid_generate_v4(), 0, (select id from organisation), create_audit());
 insert into concept (data_type, name, uuid, version, organisation_id, audit_id)
 VALUES ('NA', 'Departments, ENT [Bahmni]', uuid_generate_v4(), 0, (select id from organisation), create_audit());

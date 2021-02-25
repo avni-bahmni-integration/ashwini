@@ -21,7 +21,11 @@ clean-openmrs-tx-data:
 	$(call _run_mysql_script,txDataClean.sql)
 
 clean-openmrs-tx-data-remotely:
-	ssh avnibahmni "cd ashwini && make clean-openmrs-tx-data"
+	ssh avnibahmni "cd ashwini && git pull && make clean-openmrs-tx-data"
+	date
+
+deploy-openmrs-db-changes-remotely:
+	ssh avnibahmni "cd ashwini && git pull && make deploy-openmrs-db-changes"
 	date
 
 ########### AVNI
