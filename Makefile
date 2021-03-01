@@ -70,3 +70,10 @@ create-db-dump: deploy-mapping-changes-local
 
 publish-db-dump: create-db-dump
 	cp db/dump.sql ../integration-service/dump.sql
+
+
+# SERVER MANAGEMENT
+stop-unnecessary-services:
+	ssh avnibahmni "service bahmni-lab stop"
+	ssh avnibahmni "service bahmni-reports stop"
+	ssh avnibahmni "service bahmni-erp-connect stop"
