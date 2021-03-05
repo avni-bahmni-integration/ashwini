@@ -1,4 +1,17 @@
 -- Get Concepts
+(select cn.name, c.uuid, cdt.name
+ from concept c
+        join concept_name cn on cn.concept_id = c.concept_id
+        join concept_datatype cdt on cdt.concept_datatype_id = c.datatype_id
+        join concept_class cc on cc.concept_class_id = c.class_id
+ where c.is_set = false
+   and cdt.name not in ('Rule', 'Document', 'Complex')
+   and cn.concept_name_type = 'SHORT'
+   and cc.name not in ('LabTest', 'Concept Attribute', 'Drug', 'Image', 'URL', 'Video')
+   and cn.name not like '%[Avni]'
+   and cn.name <> ''
+ order by 1 asc)
+union
 select cn.name, c.uuid, cdt.name
 from concept c
        join concept_name cn on cn.concept_id = c.concept_id
@@ -6,11 +19,22 @@ from concept c
        join concept_class cc on cc.concept_class_id = c.class_id
 where c.is_set = false
   and cdt.name not in ('Rule', 'Document', 'Complex')
-  and cn.concept_name_type = 'SHORT'
+  and cn.concept_name_type = 'FULLY_SPECIFIED'
   and cc.name not in ('LabTest', 'Concept Attribute', 'Drug', 'Image', 'URL', 'Video')
   and cn.name not like '%[Avni]'
-  and cn.name <> ''
-order by 1 asc;
+  and cn.name <> '' and c.concept_id not in (
+                                            select c.concept_id
+                                            from concept c
+                                                   join concept_name cn on cn.concept_id = c.concept_id
+                                                   join concept_datatype cdt on cdt.concept_datatype_id = c.datatype_id
+                                                   join concept_class cc on cc.concept_class_id = c.class_id
+                                            where c.is_set = false
+                                              and cdt.name not in ('Rule', 'Document', 'Complex')
+                                              and cn.concept_name_type = 'SHORT'
+                                              and cc.name not in ('LabTest', 'Concept Attribute', 'Drug', 'Image', 'URL', 'Video')
+                                              and cn.name not like '%[Avni]'
+                                              and cn.name <> ''
+                                            );
 
 -- Get Concept Answer Mapping
 select distinct cn.name concept_name, acn.name answer_concept_name

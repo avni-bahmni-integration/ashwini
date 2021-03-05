@@ -1,3 +1,7 @@
+-- https://docs.google.com/spreadsheets/d/1IVN7HH98Q8QHlCDjICZLBvHquk77nSh3hrIPN1cVUoY
+-- Sheet = Concept Answer Mapping. Column = D
+-- openmrs-concept-extract.sql (Get Concept Answer Mapping)
+
 set role bahmni_ashwini_integration;
 
 insert into concept_answer (concept_id, answer_concept_id, uuid, version, answer_order, organisation_id, audit_id)
