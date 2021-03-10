@@ -94,3 +94,17 @@ where et.name in ('Consultation') and c.is_set = 0
   and o.obs_group_id is null
 group by et.name, cn.name
 order by 3 desc;
+
+-- See encounter observations
+select quesion_name.name, coalesce(answer_name.name, value_text, value_numeric, value_datetime), obs.voided, obs.void_reason, obs.voided_by, obs.*
+from obs
+         join concept question on obs.concept_id = question.concept_id
+         join concept_name quesion_name on question.concept_id = quesion_name.concept_id
+         left join concept answer on obs.value_coded = answer.concept_id
+         left join concept_name answer_name
+                   on answer.concept_id = answer_name.concept_id and answer_name.concept_name_type = 'FULLY_SPECIFIED'
+where 1 = 1
+  and quesion_name.concept_name_type = 'FULLY_SPECIFIED'
+  and encounter_id = 540631
+  and obs.voided =false
+order by quesion_name.name;
