@@ -1,10 +1,11 @@
 delimiter //
-CREATE PROCEDURE add_concept_abi (name_of_concept VARCHAR(255),
+CREATE FUNCTION add_concept_abi_func (name_of_concept VARCHAR(255),
                               concept_short_name VARCHAR(255),
                               data_type_name VARCHAR(255),
                               class_name VARCHAR(255),
                               is_set BOOLEAN,
                               uuid VARCHAR(255))
+    RETURNS int
 BEGIN
   DECLARE data_type_id INT;
   DECLARE class_id INT;
@@ -41,6 +42,7 @@ BEGIN
     SELECT uuid() into @uuid;
     INSERT INTO concept_name (concept_id, name, locale, locale_preferred, creator, date_created, concept_name_type, uuid)
       values (new_concept_id, name_of_concept, 'en', 1, 1, now(), 'FULLY_SPECIFIED', @uuid);
+    RETURN new_concept_id;
   END IF;
 END//
 delimiter ;
