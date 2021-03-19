@@ -1,14 +1,14 @@
 -- Concepts for core fields in Avni
-call add_concept_abi('Avni Entity UUID [Avni]', 'Avni Entity UUID', 'Text', 'Misc', false, 'a1f16e61-065d-4fda-a31e-9c4737793249');
-call add_concept_abi('Created by CHW [Avni]', 'CHW created by', 'Text', 'Misc', false, '8bda510a-53d9-4adc-960c-19d1733c48dd');
-call add_concept_abi('Last changed by CHW [Avni]', 'CHW last changed by', 'Text', 'Misc', false, '00c2b2b4-97cb-435f-954b-51b8a733bc84');
-call add_concept_abi('Last changed on [Avni]', 'Last changed on', 'Date', 'Misc', false, '7baad622-a699-4808-8c44-1b4860099e3a');
-call add_concept_abi('Community registration date [Avni]', 'Community registration date', 'Text', 'Misc', false, 'c283a983-5db0-42b7-aa60-8ced1734eae6');
-call add_concept_abi('First name [Avni]', 'First name', 'Text', 'Misc', false, '9a82562b-626b-4515-9a5f-31f3ed87f02b');
-call add_concept_abi('Last name [Avni]', 'Last name', 'Text', 'Misc', false, '6e62e978-b45a-4a3b-a5dc-00f81f99bb77');
-call add_concept_abi('Date of birth [Avni]', 'Date of birth', 'Date', 'Misc', false, 'b09be3d4-644e-487b-bc1c-d1eea88de25d');
-call add_concept_abi('Gender [Avni]', 'Gender', 'Text', 'Misc', false, '4e149d1e-13a0-40ca-a4ec-b9fe0c77170e');
-call add_concept_abi('Avni Enrolment UUID [Avni]', 'Avni Enrolment UUID', 'Text', 'Misc', false, '1da2bd25-91f6-4235-9b13-bbb25209121c');
+select add_concept_abi_func('Avni Entity UUID [Avni]', 'Avni Entity UUID', 'Text', 'Misc', false, 'a1f16e61-065d-4fda-a31e-9c4737793249');
+select add_concept_abi_func('Created by CHW [Avni]', 'CHW created by', 'Text', 'Misc', false, '8bda510a-53d9-4adc-960c-19d1733c48dd');
+select add_concept_abi_func('Last changed by CHW [Avni]', 'CHW last changed by', 'Text', 'Misc', false, '00c2b2b4-97cb-435f-954b-51b8a733bc84');
+select add_concept_abi_func('Last changed on [Avni]', 'Last changed on', 'Date', 'Misc', false, '7baad622-a699-4808-8c44-1b4860099e3a');
+select add_concept_abi_func('Community registration date [Avni]', 'Community registration date', 'Text', 'Misc', false, 'c283a983-5db0-42b7-aa60-8ced1734eae6');
+select add_concept_abi_func('First name [Avni]', 'First name', 'Text', 'Misc', false, '9a82562b-626b-4515-9a5f-31f3ed87f02b');
+select add_concept_abi_func('Last name [Avni]', 'Last name', 'Text', 'Misc', false, '6e62e978-b45a-4a3b-a5dc-00f81f99bb77');
+select add_concept_abi_func('Date of birth [Avni]', 'Date of birth', 'Date', 'Misc', false, 'b09be3d4-644e-487b-bc1c-d1eea88de25d');
+select add_concept_abi_func('Gender [Avni]', 'Gender', 'Text', 'Misc', false, '4e149d1e-13a0-40ca-a4ec-b9fe0c77170e');
+select add_concept_abi_func('Avni Enrolment UUID [Avni]', 'Avni Enrolment UUID', 'Text', 'Misc', false, '1da2bd25-91f6-4235-9b13-bbb25209121c');
 
 
 -- Encounter types
