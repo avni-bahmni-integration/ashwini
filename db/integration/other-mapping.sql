@@ -20,6 +20,8 @@ insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, av
 values ('GeneralEncounter', 'EncounterType', '81852aee-3f10-11e4-adec-0800271c1b75', 'Hospital Consultation');
 
 -- AVNI TO BAHMNI
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, about)
+values ('Common', 'AvniUUID_Concept', 'a1f16e61-065d-4fda-a31e-9c4737793249', null, 'External uuid is used to match entities after first save');
 -- Audit
 insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
 values ('Audit', 'Concept', '8bda510a-53d9-4adc-960c-19d1733c48dd', 'Created by');
@@ -32,9 +34,6 @@ values ('Audit', 'Concept', '7baad622-a699-4808-8c44-1b4860099e3a', 'Last modifi
 
 insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, about)
 values ('PatientSubject', 'Subject_EncounterType', '18c9a1d6-c4f5-4b64-8dbb-cf8ded8b9552', null, 'Encounter type in OpenMRS for subject registration data in Avni');
-
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, about)
-values ('PatientSubject', 'SubjectUUID_Concept', 'a1f16e61-065d-4fda-a31e-9c4737793249', null, 'External uuid is used to match entities after first save');
 
 -- Patient Subject (Core Fields)
 insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, data_type_hint)

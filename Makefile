@@ -52,11 +52,9 @@ define _run_mapping_changes
 endef
 
 define _deploy_mapping_changes
-	$(call _fix_sql_file,integration/avni-to-bahmni/concept-mapping.sql)
 	$(call _fix_sql_file,integration/bahmni-to-avni/concept-mapping.sql)
 
 	$(call _run_mapping_changes,$1,clean.sql)
-	$(call _run_mapping_changes,$1,avni-to-bahmni/concept-mapping.sql)
 	$(call _run_mapping_changes,$1,bahmni-to-avni/person-attribute-concept-mapping.sql)
 	$(call _run_mapping_changes,$1,bahmni-to-avni/concept-mapping.sql)
 	$(call _run_mapping_changes,$1,other-mapping.sql)
