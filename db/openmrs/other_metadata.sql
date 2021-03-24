@@ -35,3 +35,11 @@ values ('Family Planning Community Enrolment', curdate(), '68f4ee11-87dd-42d6-87
 
 insert into encounter_type (name, date_created, uuid, changed_by, date_changed, creator)
 values ('Mental Health Community Enrolment', curdate(), '8a7175ec-2a04-4f51-9a10-3080b34361ed', 1, curdate(), 1);
+
+-- Locations
+insert into location (uuid, name, date_created, creator)
+values ('afa68747-9d0e-4d35-a96d-c59d7d3bb91b', 'Community', current_date, 1);
+
+-- Visit Types
+insert into visit_type (uuid, name, date_created, creator)
+values ('c099f28b-4f98-42ef-8f04-840b06a80a8d', 'Community', current_date, 1);
