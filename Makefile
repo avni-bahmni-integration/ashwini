@@ -40,11 +40,11 @@ clean-avnidb-files-to-staging:
 
 deploy-avni-db-changes: clean-avnidb-files-to-staging
 	$(call _run_sql_on_staging,clean.sql)
-	$(call _run_sql_on_staging,person-attribute-concepts.sql)
+#	$(call _run_sql_on_staging,person-attribute-concepts.sql)
 #	$(call _run_sql_on_staging,person-attribute-concept-answers.sql) it has been handled using concept-answers
-	$(call _run_sql_on_staging,concepts.sql)
-	$(call _run_sql_on_staging,concept-answers.sql)
-	$(call _run_sql_on_staging,other_metadata.sql)
+#	$(call _run_sql_on_staging,concepts.sql)
+#	$(call _run_sql_on_staging,concept-answers.sql)
+#	$(call _run_sql_on_staging,other_metadata.sql)
 
 ########### INTEGRATION Database
 define _run_mapping_changes
@@ -78,3 +78,10 @@ stop-unnecessary-services:
 	ssh avnibahmni "service bahmni-lab stop"
 	ssh avnibahmni "service bahmni-reports stop"
 	ssh avnibahmni "service bahmni-erp-connect stop"
+
+# Tunnelling
+tunnel-avni-staging:
+	ssh avni-server-staging -L 4321:stagingdb.openchs.org:5432
+
+tunnel-bahmni-server:
+	ssh avnibahmni -L 4322:localhost:3306
