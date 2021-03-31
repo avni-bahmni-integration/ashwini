@@ -9,6 +9,17 @@
     "MappingGroup": "GeneralEncounter",
     "MappingType": "LabEncounterType",
     "Bahmni Value": "82024e00-3f10-11e4-adec-0800271c1b75",
-    "Avni Value": "Lab Results"
+    "Avni Value": "Lab Results (Hospital)"
+  },
+  {
+    "MappingGroup": "GeneralEncounter",
+    "MappingType": "DrugOrderEncounterType",
+    "Bahmni Value": "81852aee-3f10-11e4-adec-0800271c1b75",
+    "Avni Value": "Drug Prescriptions (Hospital)"
+  },
+  {
+    "MappingGroup": "Observation",
+    "MappingType": "DrugOrderConcept",
+    "Avni Value": "Drug Prescription [H]"
   }
 ]
