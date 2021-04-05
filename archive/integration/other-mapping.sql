@@ -1,28 +1,29 @@
 -- COMMON
--- Patient Subject
+-- Patient Subject (done)
 insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, about)
 values ('PatientSubject', 'Patient_SubjectType', null, 'Individual', 'Subject type corresponding to patient in Bahmni. Since there is only one type of subject in Bahmni which is patient the bahmni value is null');
 
 
--- BAHMNI TO AVNI
+-- BAHMNI TO AVNI (done)
 insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, about)
 values ('Common', 'BahmniUUID_Concept', null, 'Bahmni Entity UUID [Bahmni]', 'External uuid is used to match entities after first save');
--- PatientSubject
+-- PatientSubject (done)
 insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, about)
 values ('PatientSubject', 'PatientIdentifier_Concept', 'Patient Identifier', 'Sangam Number',
         'Subject type should be inferred from the metadata mapping name Patient Subject Type.');
 
-insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, about)
-values ('PatientSubject', 'Patient_EncounterType', null, 'Bahmni Registration Encounter', 'Encounter type in OpenMRS for subject registration data in Avni');
-
--- General Encounter
+-- General Encounter (done)
 insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
 values ('GeneralEncounter', 'EncounterType', '81852aee-3f10-11e4-adec-0800271c1b75', 'Hospital Consultation');
 
 -- AVNI TO BAHMNI
 insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, about)
+values ('PatientSubject', 'Patient_EncounterType', null, 'Bahmni Registration Encounter', 'Encounter type in OpenMRS for subject registration data in Avni');
+
+insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value, about)
 values ('Common', 'AvniUUID_Concept', 'a1f16e61-065d-4fda-a31e-9c4737793249', null, 'External uuid is used to match entities after first save');
--- Audit
+
+-- Audit (not required)
 insert into mapping_metadata (mapping_group_name, mapping_name, bahmni_value, avni_value)
 values ('Audit', 'Concept', '8bda510a-53d9-4adc-960c-19d1733c48dd', 'Created by');
 
