@@ -6,11 +6,6 @@
     "Avni Value": "Sangam Number"
   },
   {
-    "MappingGroup": "PatientSubject",
-    "MappingType": "Patient_SubjectType",
-    "Avni Value": "Individual"
-  },
-  {
     "MappingGroup": "Common",
     "MappingType": "BahmniUUID_Concept",
     "Avni Value": "Bahmni Entity UUID [Bahmni]"
