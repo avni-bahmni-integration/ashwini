@@ -30,7 +30,7 @@ deploy-avni-db-changes:
 	$(call _run_sql_on_staging,clean.sql)
 
 ###########  UTILITY
-create-db-dump: deploy-mapping-changes-local
+create-db-dump:
 	pg_dump -Ubahmni_avni_admin -hlocalhost -d bahmni_avni > db/dump.sql
 
 publish-db-dump: create-db-dump
