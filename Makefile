@@ -18,7 +18,6 @@ clean-openmrs-tx-data-remotely:
 	ssh avnibahmni "cd ashwini && git pull && make clean-openmrs-tx-data"
 	date
 
-
 ########### AVNI
 define _run_sql_on_staging
 	$(call _fix_sql_file,avni/$1)
