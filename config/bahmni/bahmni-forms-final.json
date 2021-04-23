@@ -66,6 +66,12 @@
     "program": "Chronic sickness"
   },
   {
+      "formId": 5392,
+      "formName": "Chronic Sickness followup (Hospital)",
+      "type": "ProgramEncounter",
+      "program": "Chronic sickness"
+  },
+  {
     "formId": 5422,
     "formName": "TB enrolment (Hospital)",
     "type": "ProgramEncounter",
@@ -146,6 +152,12 @@
   {
       "formId": 5885,
       "formName": "ANC Followup (Hospital)",
+      "type": "ProgramEncounter",
+      "program": "Mother"
+  },
+  {
+      "formId": 5971,
+      "formName": "PNC Followup (Hospital)",
       "type": "ProgramEncounter",
       "program": "Mother"
   },
