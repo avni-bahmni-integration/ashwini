@@ -58,5 +58,10 @@
     "formName": "New born screening (Hospital)",
     "type": "ProgramEncounter",
     "program": "Mother"
+  },
+  {
+      "formId": 13,
+      "formName": "Diagnosis (Hospital)",
+      "type": "Encounter"
   }
 ]

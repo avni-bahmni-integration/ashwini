@@ -166,5 +166,16 @@
       "formName": "Abortion (Hospital)",
       "type": "ProgramEncounter",
       "program": "Mother"
+  },
+  {
+      "formId": 6016,
+      "formName": "Delivery (Hospital)",
+      "type": "ProgramEncounter",
+      "program": "Mother"
+  },
+  {
+    "formId": 13,
+    "formName": "Diagnosis (Hospital)",
+    "type": "Encounter"
   }
 ]
