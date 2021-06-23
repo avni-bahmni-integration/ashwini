@@ -43,8 +43,25 @@ stop-unnecessary-services:
 	ssh avnibahmni "service bahmni-erp-connect stop"
 
 # Tunnelling
+define _tunnel
+	@echo "Opening tunnel local port=$1 remote host=$2 remote port=$3"
+	ssh $2 -L $1:localhost:$3
+endef
+
 tunnel-avni-staging:
 	ssh avni-server-staging -L 4321:stagingdb.openchs.org:5432
 
-tunnel-bahmni-server:
+tunnel-avni-prod-read:
+	ssh avni-server-prod -L 2203:serverdb.read.openchs.org:5432
+
+tunnel-bahmni-openmrs-test-server:
 	ssh avnibahmni -L 4322:localhost:3306
+
+tunnel-bahmni-openmrs-db-prod-server:
+	$(call _tunnel,2201,avnibahmni,2301)
+
+tunnel-bahmni-postgres-prod-server:
+	$(call _tunnel,2202,avnibahmni,2302)
+
+tunnel-bahmni-openmrs-prod-server:
+	$(call _tunnel,2204,avnibahmni,2304)
