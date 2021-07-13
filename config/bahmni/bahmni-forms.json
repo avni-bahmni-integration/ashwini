@@ -60,8 +60,122 @@
     "program": "Mother"
   },
   {
-      "formId": 13,
-      "formName": "Diagnosis (Hospital)",
-      "type": "Encounter"
+    "formId": 5340,
+    "formName": "Chronic Sickness Enrollment (Hospital)",
+    "type": "ProgramEncounter",
+    "program": "Chronic sickness"
+  },
+  {
+    "formId": 5392,
+    "formName": "Chronic Sickness followup (Hospital)",
+    "type": "ProgramEncounter",
+    "program": "Chronic sickness"
+  },
+  {
+    "formId": 5422,
+    "formName": "TB enrolment (Hospital)",
+    "type": "ProgramEncounter",
+    "program": "TB"
+  },
+  {
+    "formId": 5435,
+    "formName": "TB followup (Hospital)",
+    "type": "Program Encounter",
+    "program": "TB"
+  },
+  {
+    "formId": 5475,
+    "formName": "Mental health enrolment (Hospital)",
+    "type": "ProgramEncounter",
+    "program": "Mental Health"
+  },
+  {
+    "formId": 5518,
+    "formName": "Mental health followup (Hospital)",
+    "type": "ProgramEncounter",
+    "program": "Mental Health"
+  },
+  {
+    "formId": 5580,
+    "formName": "Sickle cell Enrolment (Hospital)",
+    "type": "ProgramEncounter",
+    "program": "Sickle Cell"
+  },
+  {
+    "formId": 5604,
+    "formName": "Sickle cell followup (Hospital)",
+    "type": "ProgramEncounter",
+    "program": "Sickle Cell"
+  },
+  {
+    "formId": 5664,
+    "formName": "FP Enrolment (Hospital)",
+    "type": "ProgramEncounter",
+    "program": "Family Planning"
+  },
+  {
+    "formId": 5694,
+    "formName": "FP Followup (Hospital)",
+    "type": "ProgramEncounter",
+    "program": "Family Planning"
+  },
+  {
+    "formId": 5737,
+    "formName": "Child Enrolment (Hospital)",
+    "type": "ProgramEncounter",
+    "program": "Child"
+  },
+  {
+    "formId": 5756,
+    "formName": "Child  PNC (Hospital)",
+    "type": "ProgramEncounter",
+    "program": "Child"
+  },
+  {
+    "formId": 5815,
+    "formName": "Birth (Hospital)",
+    "type": "ProgramEncounter",
+    "program": "Child"
+  },
+  {
+    "formId": 5816,
+    "formName": "Anthropometry  Assessment (Hospital)",
+    "type": "ProgramEncounter",
+    "program": "Child"
+  },
+  {
+    "formId": 5819,
+    "formName": "Mother Enrolment (Hospital)",
+    "type": "ProgramEncounter",
+    "program": "Mother"
+  },
+  {
+    "formId": 5885,
+    "formName": "ANC Followup (Hospital)",
+    "type": "ProgramEncounter",
+    "program": "Mother"
+  },
+  {
+    "formId": 5971,
+    "formName": "PNC Followup (Hospital)",
+    "type": "ProgramEncounter",
+    "program": "Mother"
+  },
+  {
+    "formId": 6069,
+    "formName": "Abortion (Hospital)",
+    "type": "ProgramEncounter",
+    "program": "Mother"
+  },
+  {
+    "formId": 6016,
+    "formName": "Delivery (Hospital)",
+    "type": "ProgramEncounter",
+    "program": "Mother"
+  },
+  {
+    "formId": 13,
+    "formName": "Diagnosis (Hospital)",
+    "type": "Encounter"
   }
 ]
