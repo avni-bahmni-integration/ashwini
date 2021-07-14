@@ -54,14 +54,20 @@ tunnel-avni-staging:
 tunnel-avni-prod-read:
 	ssh avni-server-prod -L 2203:serverdb.read.openchs.org:5432
 
+tunnel-avni-prod:
+	ssh avni-server-prod -L 2203:serverdb.openchs.org:5432
+
 tunnel-bahmni-openmrs-test-server:
 	ssh avnibahmni -L 4322:localhost:3306
 
 tunnel-bahmni-openmrs-db-prod-server:
-	$(call _tunnel,2201,avnibahmni,2301)
+	$(call _tunnel,2201,dspace,2301)
 
 tunnel-bahmni-postgres-prod-server:
-	$(call _tunnel,2202,avnibahmni,2302)
+	$(call _tunnel,2202,dspace,2302)
 
 tunnel-bahmni-openmrs-prod-server:
-	$(call _tunnel,2204,avnibahmni,2304)
+	$(call _tunnel,2204,dspace,2304)
+
+
+# Deployment

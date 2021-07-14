@@ -80,7 +80,7 @@
   {
     "formId": 5435,
     "formName": "TB followup (Hospital)",
-    "type": "Program Encounter",
+    "type": "ProgramEncounter",
     "program": "TB"
   },
   {
