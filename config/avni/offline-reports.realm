@@ -1,0 +1,41 @@
+
+-- Hospital Enrolments
+'use strict';
+({params, imports}) => {
+    return params.db.objects('Individual')
+        .filtered(`SUBQUERY(enrolments, $enrolment, SUBQUERY($enrolment.observations, $obs, $obs.concept != null).@count == 1).@count > 0`);
+};
+
+'use strict';
+({params, imports}) => {
+    return params.db.objects('Individual')
+        .filtered(`SUBQUERY(enrolments, $enrolment, SUBQUERY($enrolment.observations, $obs, $obs.concept != null).@count == 1 and voided = false).@count > 0 and voided = false`);
+};
+
+
+-- Recent program related visits
+'use strict';
+({params, imports}) => {
+   return params.db.objects('Individual')
+        .filtered(`SUBQUERY(enrolments, $enrolment, SUBQUERY($enrolment.encounters, $enc, $enc.encounterDateTime > $0 AND $enc.encounterType.name CONTAINS "Hospital").@count > 0).@count > 0`, imports.moment().subtract(15, 'days').toDate());
+};
+
+'use strict';
+({params, imports}) => {
+   return params.db.objects('Individual')
+        .filtered(`SUBQUERY(enrolments, $enrolment, SUBQUERY($enrolment.encounters, $enc, $enc.encounterDateTime > $0 AND $enc.encounterType.name CONTAINS "Hospital").@count > 0 and voided = false).@count > 0 and voided = false`, imports.moment().subtract(15, 'days').toDate());
+};
+
+
+-- Recently visited hospital
+'use strict';
+({params, imports}) => {
+   return params.db.objects('Individual')
+        .filtered(`encounters.encounterDateTime > $0 AND encounters.encounterType.name CONTAINS "Hospital"`, imports.moment().subtract(15, 'days').toDate());
+};
+
+'use strict';
+({params, imports}) => {
+   return params.db.objects('Individual')
+        .filtered(`encounters.encounterDateTime > $0 AND encounters.encounterType.name CONTAINS "Hospital" AND encounters.voided = false`, imports.moment().subtract(15, 'days').toDate());
+};
