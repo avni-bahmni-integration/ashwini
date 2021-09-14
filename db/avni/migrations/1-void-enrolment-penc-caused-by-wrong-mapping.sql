@@ -12,7 +12,7 @@ where program_enrolment.id in
        where e.organisation_id = 10 and users.username = 'avni-to-bahmni@ashwini');
 
 update audit
-set last_modified_date_time = current_time + x.rowNumber * interval '1 second'
+set last_modified_date_time = current_timestamp + x.rowNumber * interval '1 second'
 from (select e.audit_id auditId, row_number() over () as rowNumber
        from program_enrolment e
                 join audit a on e.audit_id = a.id
@@ -32,7 +32,7 @@ where program_encounter.id in
        where e.organisation_id = 10 and users.username = 'avni-to-bahmni@ashwini');
 
 update audit
-set last_modified_date_time = current_time + x.rowNumber * interval '1 second'
+set last_modified_date_time = current_timestamp + x.rowNumber * interval '1 second'
 from (select e.audit_id auditId, row_number() over () as rowNumber
       from program_encounter e
                join audit a on e.audit_id = a.id
