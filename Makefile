@@ -67,7 +67,7 @@ tunnel-bahmni-postgres-prod-server:
 	$(call _tunnel,2202,dspace,2302)
 
 tunnel-bahmni-openmrs-prod-server:
-	$(call _tunnel,2204,dspace,2304)
+	$(call _tunnel,6040,dspace,6040)
 
 
 # Deployment
